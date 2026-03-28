@@ -1,0 +1,21 @@
+advisor_model: null
+base_url1: https://api.deepseek.com/v1
+base_url2: https://api.deepseek.com/v1
+base_url_embed: https://dashscope.aliyuncs.com/compatible-mode/v1
+chunk_overlap: 200
+chunk_size: 2000
+ignore_dir:
+- .git
+- node_modules
+- target
+- .venv
+input_dir: .
+model1: deepseek-chat
+model2: deepseek-reasoner
+model_embed: text-embedding-v3
+output_dir: null
+persist_dir: ./data/chroma
+reindex: true
+summarizer_model: null
+top_k: 4
+vector_db: chroma
